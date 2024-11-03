@@ -1,11 +1,8 @@
 <script>
-  import Copy from './Copy.svelte';
   import Prism from 'prismjs';
   import 'prismjs/themes/prism-tomorrow.min.css'; // Your preferred theme
   import 'prismjs/components/prism-javascript'; // Import specific language
   import 'prismjs/components/prism-java';
-  import Copy2 from './Copy2.svelte';
-  import CopyButton from './CopyButton.svelte';
   import Button from './Button.svelte';
   
   let code = `
